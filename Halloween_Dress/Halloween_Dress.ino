@@ -2,11 +2,11 @@
 #include <UltraSonicRanging.h>
 
 
-#define ECHO_PIN 2 // White
-#define TRIG_PIN 3 // Brown
-#define LED_OUT  5
+#define ECHO_PIN 2 // ECHO pin of HC-SR04
+#define TRIG_PIN 3 // Trigger pin of HC-SR04
+#define LED_OUT  5 // Drive LED (Base pin of TIP120
 
-const int space = 125;
+const int space = 125; // Distance in cm in which to trigger LED
 
 void setup()
 {
